@@ -27,15 +27,13 @@
 	<h:form>
 		<p:menubar style="margin-top: -20px; margin-bottom: 20px">
 			<p:submenu label="Cadastros">
-				<p:menuitem value="Pessoa" />
-				<p:menuitem value="Lançamento"
-					action="/CadastroLancamento?faces-redirect=true" />
+				<p:menuitem value="Cliente"
+					action="/CadastroCliente?faces-redirect=true" />
 			</p:submenu>
 
 			<p:submenu label="Consultas">
-				<p:menuitem value="Pessoas" />
-				<p:menuitem value="Lançamentos"
-					action="/ConsultaLancamento?faces-redirect=true" />
+				<p:menuitem value="Cliente"
+					action="/ConsultaCliente?faces-redirect=true" />
 			</p:submenu>
 			<p:submenu label="Sistema">
 				<p:menuitem value="Sair" />
@@ -47,6 +45,6 @@
 		<ui:insert name="corpo" />
 	</div>
 
-	<footer> Sistema de Estudo JAVA! </footer>
+	<footer> Trabalho - Padrão de Projetos! </footer>
 </h:body>
 </html>
